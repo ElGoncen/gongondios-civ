@@ -4132,8 +4132,94 @@
       <rate type="Tree">1.000000</rate>
     </protoaction>
   </unit>
-
-  <unit id="1851" name="deUniversity">
-<train row="0" page="1" column="0">ingeniero</train>
+ <unit id="4012" name="deUniversity2">
+    <dbid>4012</dbid>
+    <displaynameid>101156</displaynameid>
+    <obstructionradiusx>5.0000</obstructionradiusx>
+    <obstructionradiusz>5.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <deadreplacement>BuildingRubble4x4</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <animfile>buildings\african_civs\university\university.xml</animfile>
+    <impacttype>Stone</impacttype>
+    <physicsinfo>house</physicsinfo>
+    <placementfile>university.xml</placementfile>
+    <icon>resources\art\buildings\african_civs\university_icon.png</icon>
+    <minimapicon>ui\minimap\university</minimapicon>
+    <portraiticon>resources\art\buildings\african_civs\university_portrait.png</portraiticon>
+    <rollovertextid>101158</rollovertextid>
+    <shortrollovertextid>101157</shortrollovertextid>
+    <legacyhotkeycontext>UniversityAccel</legacyhotkeycontext>
+    <initialhitpoints>3500.0000</initialhitpoints>
+    <maxhitpoints>3500.0000</maxhitpoints>
+    <los>12.0000</los>
+    <displayedrange>30.0000</displayedrange>
+    <buildpoints>30.0000</buildpoints>
+    <buildlimit>4</buildlimit>
+    <bounty>160.0000</bounty>
+    <buildbounty>80.0000</buildbounty>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <allowedage>0</allowedage>
+    <armor type="Siege" value="0.0000">
+    </armor>
+    <builderlimit>8</builderlimit>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>LogicalTypeValidSPCBuildingsDeadCondition</unittype>
+    <unittype>ColonyBuilding</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>Economic</unittype>
+    <unittype>Building</unittype>
+    <unittype>LogicalTypeBuildingsNoRangedAttack</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractChurch</unittype>
+    <train row="0" page="1" column="0">ingeniero</train>
+    <tech row="0" page="19" column="2">DECityFortifications</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NoIdleActions</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>ColonyBuilding</flag>
+    <flag>ColonyPlacementL</flag>
+    <flag>HasGatherPoint</flag>
+    <flag>Tracked</flag>
+    <flag>DisplayRange</flag>
+    <flag>BuildingShowTactics</flag>
+    <flag>EnterHotkeyContext</flag>
+    <flag>UISkipActiveTechs</flag>
+    <flag>ShowAutoGatherAbsoluteInfo</flag>
+    <flag>DoTacticToSameUnitType</flag>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="3">SetGatherPointMilitary</command>
+    <command page="10" column="8">CancelAllQueued</command>
+    <command page="11" column="2">deUniversityXP</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>university.tactics</tactics>
+      <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.750000</rate>
+    </protoaction>
   </unit>
+
 </protomods>
