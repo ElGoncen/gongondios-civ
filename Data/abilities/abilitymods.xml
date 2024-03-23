@@ -1,0 +1,14 @@
+<abilitymods>
+
+<gonpriest>
+    <ability>PowerConvert2<rof>60</rof></ability>
+  </gonpriest>
+   <Desguanzador>
+    <ability>deChargeAbilityBullsEye<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </Desguanzador>
+  <ypmonkdisciple2>
+    <ability>ypPowerCriticalAttack<alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
+    <ability>ypPowerConvertDisciple<tech>Colonialize</tech><alwaysdisabledingrid>true</alwaysdisabledingrid></ability>
+  </ypmonkdisciple2>
+    
+  </abilitymods>
