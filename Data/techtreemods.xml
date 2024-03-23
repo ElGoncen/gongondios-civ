@@ -281,7 +281,7 @@
         <target type="ProtoUnit">WallConnector</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">deUniversity</target>
+        <target type="ProtoUnit">deUniversity2</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ingeniero</target>
@@ -862,7 +862,7 @@
         <target type="ProtoUnit">Factory</target>
       </effect>
       <effect type="Data" amount="2.00" subtype="AllowedAge" relativity="Absolute">
-        <target type="ProtoUnit">deUniversity</target>
+        <target type="ProtoUnit">deUniversity2</target>
       </effect>
 
     </effects>
